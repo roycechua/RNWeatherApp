@@ -48,8 +48,8 @@ type WeatherInfo = {
     "main": Main,
     "name": string,
     "sys": Sys,
-    "timezone": 28800,
-    "visibility": 10000,
+    "timezone": number,
+    "visibility": number,
     "weather": Weather[],
     "wind": Wind,
 }
